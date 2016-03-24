@@ -22,7 +22,9 @@
        BOOL isAdd = class_addMethod(self, selA, method_getImplementation(methodB), method_getTypeEncoding(methodB));
         if (isAdd) {
             class_replaceMethod(self, selB, method_getImplementation(methodA), method_getTypeEncoding(methodA));
+            
         }else{
+            
             method_exchangeImplementations(methodA, methodB);
         }
     });
