@@ -1,5 +1,5 @@
 //
-//  UIButton+touch.h
+//  UIButton+Touch.h
 //  Master
 //
 //  Created by ConnorJ on 16/2/29.

@@ -1,12 +1,14 @@
 //
-//  UIButton+touch.m
+//  UIButton+Touch.m
 //  Master
 //
 //  Created by ConnorJ on 16/2/29.
 //  Copyright © 2016年 PutiBaby. All rights reserved.
 //
 
-#import "UIButton+touch.h"
+#import "UIButton+Touch.h"
+#import <objc/runtime.h>
+
 @interface UIButton()
 /**bool 类型   设置是否执行点UI方法*/
 @property (nonatomic, assign) BOOL isIgnoreEvent;
